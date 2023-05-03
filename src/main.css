@@ -1,5 +1,5 @@
 body{
-  background-color: blue;
+  background-color: rgb(229, 229, 235);
   font-size: x-small;
 }
 
@@ -8,10 +8,23 @@ h1 {
 }
 
 .su{
-  background-color: aquamarine;
+  
+  background-color: blueviolet; 
+  color: blanchedalmond;
 }
 
 
 .si{
   background-color: blueviolet; 
+  color: blanchedalmond;
+}
+
+.se{
+  background-color: blueviolet; 
+  color: blanchedalmond;
+}
+
+.so{
+  background-color: blueviolet; 
+  color: blanchedalmond;
 }

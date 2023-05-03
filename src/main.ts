@@ -12,9 +12,11 @@ import { FormsModule } from '@angular/forms';
   styleUrls: ['./main.css']
     
 })
+
+
 export class App {
   name = 'Bryan Quituisaca';
-  cargo = 'docente'
+  cargo = 'CALCULADORA'
 
 a = 100; 
 b = 0;
