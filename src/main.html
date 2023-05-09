@@ -2,33 +2,26 @@
 <h2>{{cargo}}</h2>
 <a target="_blank" href="https://angular.io/start">
   CASIO
-  <br>
+  <br />
 </a>
-<br>
-<label for="txtA" > A: </label>
-<input id="txtA" [(ngModel)]="a"/>
-<br>
+<br />
+<label for="txtA"> A: </label>
+<input id="txtA" [(ngModel)]="a" />
+<br />
 <label for="txtB"> B: </label>
 <input id="txtB" [(ngModel)]="b" />
 
-<hr>
+<hr />
 
-<p>
-  = {{c}}
-</p>
+<p>= {{c}}</p>
 
- 
+<button class="su" (click)="calcular()">Sumar {{contador}}</button>
 
+<button class="si" (click)="calcular1()">Multiplicar {{contador}}</button>
 
-<button class="su" (click)="calcular()">Sumar {{contador}}</button> 
+<button class="se" (click)="calcular2()">Restar {{contador}}</button>
 
-
-<button class ="si" (click)="calcular1()">Multiplicar {{contador}}</button> 
-
-
-<button class = "se" (click)="calcular2()">Restar {{contador}}</button> 
-
-<button class = "so" (click)="calcular3()">Dividir {{contador}}</button> 
-<br>
-<br>
-<button target="_blank " href="formu.html" class = "so" >OTRA PAGINA </button> 
+<button class="so" (click)="calcular3()">Dividir {{contador}}</button>
+<br />
+<br />
+<button target="_blank " href="./formu.html" class="so">OTRA PAGINA</button>
