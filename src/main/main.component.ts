@@ -8,8 +8,8 @@ import { FormsModule } from '@angular/forms';
   selector: 'my-app',
   standalone: true,
   imports: [CommonModule, FormsModule],
-  templateUrl: './main.html',
-  styleUrls: ['./main.css'],
+  templateUrl: './main.component.html',
+  styleUrls: ['./main.component.css'],
 })
 export class App {
   name = 'Bryan Quituisaca';

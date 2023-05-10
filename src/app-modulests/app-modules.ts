@@ -6,11 +6,10 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 
 import { FormularioComponent } from '../formulario/formulario.component';
-import { FormularioComponent } from '../main.component';
 
 const route: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', component: FormularioComponent },
+  { path: '', redirectTo: 'formulario', pathMatch: 'full' },
+  { path: 'formulario', component: FormularioComponent },
 ];
 @NgModule({
   imports: [CommonModule],
