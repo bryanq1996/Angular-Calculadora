@@ -1,4 +1,4 @@
-body{
+body {
   background-color: rgb(229, 229, 235);
   font-size: x-small;
 }
@@ -7,24 +7,22 @@ h1 {
   font-size: 2em;
 }
 
-.su{
-  
-  background-color: blueviolet; 
+.su {
+  background-color: blueviolet;
   color: blanchedalmond;
 }
 
-
-.si{
-  background-color: blueviolet; 
+.si {
+  background-color: blueviolet;
   color: blanchedalmond;
 }
 
-.se{
-  background-color: blueviolet; 
+.se {
+  background-color: blueviolet;
   color: blanchedalmond;
 }
 
-.so{
-  background-color: blueviolet; 
+.so {
+  background-color: blueviolet;
   color: blanchedalmond;
 }

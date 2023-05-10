@@ -14,8 +14,8 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/demo",
-            "index": "src/index.html",
-            "main": "src/main.ts",
+            "index": "src/main/index.html",
+            "main": "src/main/main.ts",
             "assets": [],
             "styles": ["src/global_styles.css"],
             "scripts": []
